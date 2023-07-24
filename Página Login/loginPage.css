@@ -1,0 +1,91 @@
+
+@font-face {
+    font-family: 'DINNeuzeitGrotesk';
+    src: url('./fonts/DIN.ttf') format('truetype');
+  }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'DINNeuzeitGrotesk LT Light', sans-serif;
+    background-color: black;
+  }
+  
+  .logo {
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .logo img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .login-form {
+    margin-left: 200px;
+    color: #fff;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Estilo para las etiquetas "Usuario" y "Contraseña" */
+  .login-form label {
+
+    font-size: 20px;
+    display: inline-block;
+    width: 485px; /* Ajustamos el ancho del label para que tenga el mismo tamaño */
+    border-bottom: 1px solid #fff; /* Agregamos subrayado blanco */
+  }
+  
+  /* Estilo para las cajas del formulario */
+  .login-form input {
+    margin-left: 15px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 0;
+    background-color: black; /* Fondo negro */
+    color: #fff; /* Letras en blanco */
+    margin-bottom: 15px;
+    width: 100%;
+    outline: none; /* Elimina el borde de enfoque */
+
+  }
+  
+
+  
+  /* Estilo para las etiquetas con subrayado */
+  .login-form .form-item {
+    display: grid;
+    grid-template-columns: 100px auto; /* Ajustamos el ancho del label y el input */
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .login-form button {
+    width: 212.33px;
+    height: 36px;
+    padding: 10px;
+    background-color: #393E46;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+  }
+  
